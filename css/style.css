@@ -44,3 +44,134 @@ body {
   top: 100px;
   min-width: 130px;
 }
+/* NAV SECTION 2  */
+
+.nav_section_2 {
+  background-color: #1c2454;
+  padding: 35px 0px;
+}
+.section_2_img a img {
+  width: 170px;
+  margin-left: 5px;
+}
+.section_2_support {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 280px;
+  margin-right: 10px;
+}
+.support_icon i {
+  font-size: 35px;
+  margin-top: 13px;
+  /* margin-left: 30px; */
+}
+.support_text {
+  margin-right: 50px;
+}
+.support_text p {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+.support_text h4 {
+  color: #e52f06;
+  font-size: 18px;
+}
+.section_2_input {
+  width: 640px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+.input_categories {
+  flex-basis: 176px;
+  background-color: #fff;
+  padding: 13px 17px;
+  margin-top: 8px;
+  border-right: 1px solid #e5e5e5;
+}
+.input_categories a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.input_categories i {
+  color: #333;
+  margin-left: 15px;
+}
+.input_box {
+  flex-basis: 410px;
+  margin-top: 8px;
+}
+.input_box input {
+  border: none;
+  width: 410px;
+  padding: 13px 15px;
+}
+.input_box input:focus {
+  outline: none;
+}
+.input_btn {
+  margin-top: 8px;
+}
+.input_btn button {
+  background-color: #e52f06;
+  padding: 12px 13px;
+  border-radius: 0px;
+}
+.input_btn i {
+  font-size: 20px;
+}
+.input_btn button:hover {
+  background-color: #333;
+}
+.section_2_cart {
+  border-radius: 0px;
+  width: 140px;
+  padding: 0px;
+  margin-top: 8px;
+  padding-bottom: 1px;
+  margin-left: 30px;
+}
+.cart_icon {
+  padding-right: 17px;
+  z-index: 1;
+}
+.cart_icon i {
+  margin-top: 12px;
+  font-size: 23px;
+  margin-left: 15px;
+}
+.cart_text {
+  margin-right: 15px;
+}
+.cart_text p {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #333;
+}
+.cart_text span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+}
+.cart_span {
+  background-color: #e52f06;
+  padding: 0px 6px;
+  border-radius: 100%;
+  z-index: 2;
+  top: 5px;
+  left: 25px;
+}
+.cart_span span {
+  font-size: 14px;
+  color: #fff;
+}
+.cart_icon2 i {
+  margin-top: 15px;
+}
