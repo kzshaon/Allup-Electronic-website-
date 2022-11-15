@@ -275,3 +275,34 @@ body {
 .slider-2 a img {
   overflow: hidden;
 }
+
+/* THIS IS SERVICE AREA  */
+
+.service_area {
+  border: 1px solid #e5e5e5;
+}
+.service_icon img {
+  width: 40px;
+}
+.service_text {
+  border-right: 1px solid #e5e5e5;
+  padding-right: 40px;
+}
+.service_text p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #888;
+}
+.payment .service_text {
+  border: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .carouselSlider {
+    margin-bottom: 15px;
+  }
+  .service_area {
+    width: 100%;
+    flex-flow: row wrap;
+  }
+}
